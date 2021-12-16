@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lan = "pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <meta http-equiv = "X-UA-Compatible" content = "ie=edge"> 
+    <title>Tempo e Temperatura</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="card">
+        
+        <div class="card-header">TEMPO E TEMPERATURA</div>
+        
+        <div class="card-body">
+          <div class="cidade">Cidade de exemplo</div>
+          <div class="data">Sexta-feira, 3 dezembro 2021</div>
+          <div class="container-img"> <!--Não entendi pq isso-->
+           <img src="icons/unknown.png">
+          </div>
+          
+          <div class="container-temp">
+            <div>22</div>
+            <span>°C</span>
+          </div>
+          <br>
+          <div class="tempo">Nublado</div>
+          <div class="min-max">22°C/23°C</div>
+
+        </div>
+        
+        <div class="card-footer">
+          <div class="input-group">
+            <input class="form" type="text" placeholder="Digite o nome da cidade" aria-describedby="botao">
+            <button class="form-btn btn" type="button" id="botao">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+  </body>
+</html>
